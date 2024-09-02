@@ -15,11 +15,11 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.9); /* Background color with transparency */
+    background-color: rgba(51, 51, 51, 1.9); /* Background color with transparency */
     color: #fff; /* Text color */
     padding: 60px 30px; /* Padding around the content */
     text-align: center; /* Center the text */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.4); /* Optional shadow */
     z-index: 999999; /* Ensure the bar is above the background */
     display: flex;
 }
