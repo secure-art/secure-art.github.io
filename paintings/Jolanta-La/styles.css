@@ -15,10 +15,21 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.8); /* Background color with transparency */
+    background-color: rgba(51, 51, 51, 0.5); /* Background color with transparency */
     color: #fff; /* Text color */
     padding: 10px 20px; /* Padding around the content */
     text-align: center; /* Center the text */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
-    z-index: 10; /* Ensure the bar is above the background */
+    z-index: 999999; /* Ensure the bar is above the background */
+    display: flex;
+}
+
+.shelf {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;    
 }
