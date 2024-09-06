@@ -18,7 +18,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3); /* Background color with transparency */
     color: #fff; /* Text color */
     padding: 30px 30px; /* Padding around the content */
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.4); /* Optional shadow */
     z-index: 999999; /* Ensure the bar is above the background */
     display: flex;
